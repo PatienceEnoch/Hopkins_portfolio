@@ -273,6 +273,12 @@ input:checked + .slider:before {
   transform: translateX(22px);
 }
 
+.project {
+  margin-bottom: 25px;
+  padding: 15px;
+  border-left: 3px solid #4CAF50;
+}
+
 /* === Dark Mode Styles === */
 .dark-mode .section-box, 
 .dark-mode section,
