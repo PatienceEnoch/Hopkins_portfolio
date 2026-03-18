@@ -417,16 +417,23 @@ input:checked + .slider:before {
 .project {
   margin-bottom: 25px;
   padding: 15px;
-  background-color: white;
+  background-color: #2f3640;
   border-radius: 5px;
+  border-left: none !important;
+  box-shadow: none;
 }
 
 #projects {
   max-width: 900px;
-  margin: 0 auto;
+  margin: 0 auto !important;
   padding: 20px;
 }
 
 #projects h2 {
-  text-align: center;
+  text-align: center !important;
+}
+
+#projects .project {
+  margin-left: auto;
+  margin-right: auto;
 }
