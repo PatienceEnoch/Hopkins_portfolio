@@ -421,3 +421,9 @@ input:checked + .slider:before {
   background-color: white;
   border-radius: 5px;
 }
+
+#projects {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: left;
+}
