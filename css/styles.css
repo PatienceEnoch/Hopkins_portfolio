@@ -413,3 +413,11 @@ input:checked + .slider:before {
 .dark-mode .professional-footer {
   background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 100%);
 }
+
+.project {
+  margin-bottom: 25px;
+  padding: 15px;
+  border-left: 3px solid #4CAF50;
+  background-color: white;
+  border-radius: 5px;
+}
