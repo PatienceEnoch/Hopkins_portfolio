@@ -273,11 +273,6 @@ input:checked + .slider:before {
   transform: translateX(22px);
 }
 
-.project {
-  margin-bottom: 25px;
-  padding: 15px;
-  border-left: 3px solid #4CAF50;
-}
 
 /* === Dark Mode Styles === */
 .dark-mode .section-box, 
@@ -417,24 +412,22 @@ input:checked + .slider:before {
 .project {
   margin-bottom: 25px;
   padding: 15px;
-  background-color: #2f3640;
+  background-color: #ffffff;
   border-radius: 5px;
   border-left: none !important;
   box-shadow: none;
 }
 
-#projects {
-  max-width: 900px;
-  margin: 0 auto !important;
-  padding: 20px;
-  text-align: center;
+.dark-mode .project {
+  background-color: #2f3640;
+  color: #f0f0f0;
 }
 
-#projects .project {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.project ul li {
-  margin-bottom: 10px;
+.project h2,
+.project h3,
+.project p,
+.project li,
+.project a,
+.project span {
+  color: inherit;
 }
